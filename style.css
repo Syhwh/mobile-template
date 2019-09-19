@@ -1,0 +1,87 @@
+html{
+    font-family: 'lato',sans-serif;
+    font-size: 12px;
+}
+.container{
+    width: 350px;
+    height: 600px;
+    background-color:#aaad;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 0.5px;
+    box-shadow:0 0 0 1px rgba(139, 139, 139, 0.877);
+    position: relative;
+}
+.main-header{
+    width: 100%;
+    background-color: rgb(103, 172, 92);
+    text-align: center;
+    color: white;
+    align-items: flex-start;
+}
+
+.main-section{
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.restaurant{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 100%;
+    padding: 15px 0px;
+    border: 0.5px solid rgb(192, 188, 188);
+    /* box-shadow:0 0 0 10px rgba(51, 51, 51, 0.06); */
+}
+.image{
+    height: 80px;
+    padding: 1px 15px;
+}
+.content{
+    flex-grow: 2;
+}
+.content h2, .reviews-text{
+    margin: 0;
+}
+.content .stars{
+    font-size: 20px;
+    color: rgb(126, 165, 122);
+}
+.content .reviews{
+    font-size: 11px;
+    color: #aaa;
+}
+.content .city{
+    font-size: 15px;
+    color: #aaa;
+    margin: 0;
+}
+.footer {
+    background-color: rgba(248, 246, 246, 0.911);
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;  
+    padding: 10px 0;
+    color: rgb(164, 164, 164);  
+}
+
+ .plus{
+    position: absolute;
+    display: flex;     
+    justify-content: center;
+    align-items: center; 
+    color: rgb(116, 172, 107);
+    font-size: 50px;  
+    background-color: white;
+    width: 65px;
+    height: 65px;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 500px ;
+    bottom: 3%;
+   
+}
